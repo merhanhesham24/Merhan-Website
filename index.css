@@ -22,6 +22,9 @@ body{
     border: black 40px solid ;
     border-radius: 10px;
 }
+.purple{
+   color: #ab92e4;
+}
 
 @keyframes movingtext {
      0% {
@@ -215,17 +218,17 @@ body{
 }
 
 /*-------------------work-------------------------------*/
-.work .col-md-3{
+.work .col-md-4{
     border-radius: 1rem;
     padding:30px 0;
 }
 .box-shadow{
     box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
 }
-.work .col-md-3:hover{
+.work .col-md-4:hover{
   transform: scale(1.05,1.05);
 }
-.work .col-md-3{
+.work .col-md-4{
    transition: 0.5s;
 }
 .img-div{
@@ -245,7 +248,7 @@ body{
     height: 80px;
     margin: auto;
 }
-.work-data .col-md-3{
+.work-data .col-md-4{
    padding: 0 80px;
 }
 
@@ -312,10 +315,10 @@ body{
    .box-div, .home .imgdiv{
       margin-bottom: 70px;
    }
-   .about .imgdiv, .work .col-md-3{
+   .about .imgdiv, .work .col-md-4{
       margin-bottom: 20px;
    }
-   .work .col-md-3{
+   .work .col-md-4{
       columns: md -2;
    }
 
