@@ -18,10 +18,32 @@ body{
     content: "";
     animation: movingtext 5s linear infinite;
 }
-.my-img{
-    border: black 40px solid ;
-    border-radius: 10px;
+.my-img {
+   border: black 40px solid;
+   border-radius: 10px;
+   position: relative;
 }
+
+.image-container {
+   position: relative;
+   display: inline-block;
+}
+
+.image-caption {
+   
+   position: absolute;
+   text-align: center;
+   bottom: 5px; /* Adjust this value to move the text above the black border */
+   left: 50%;
+   width: 100%;
+   transform: translateX(-50%);
+    /* Optional: Adds a background to make the text more readable */
+   padding: 5px; /* Optional: Adds padding around the text */
+   border-radius: 5px; /* Optional: Adds rounded corners to the background */
+   font-size: 14px; /* Adjust the font size as needed */
+   color: White; /* Adjust the text color as needed */
+}
+
 .purple{
    color: #ab92e4;
 }
